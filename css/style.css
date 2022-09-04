@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(204, 228, 249);
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section h1{
+    position: absolute;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 2.2em;
+    color: rgb(51, 52, 97);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section:nth-of-type(6){
+    background-image: url('../imagens/cristo.jpg');
+    height: 600px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.504);
+}
+
+section:nth-of-type(8){
+    background-image: url('../imagens/fernandodenoronha.jpg');
+    height: 600px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.504);
+}
+
+section:nth-of-type(10){
+    background-image: url('../imagens/paris.jpg');
+    height: 600px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.504);
+}
+
+section:nth-of-type(12){
+    background-image: url('../imagens/veneza.png');
+    height: 600px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.504);
+}
