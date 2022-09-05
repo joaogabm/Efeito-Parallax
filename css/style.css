@@ -33,6 +33,17 @@ section h1{
     transform: translate(-50%, -50%);
 }
 
+section h2{
+    position: absolute;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.5em;
+    color: rgb(51, 52, 97);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 section:nth-of-type(6){
     background-image: url('../imagens/cristo.jpg');
     height: 600px;
